@@ -1,0 +1,25 @@
+GET http://localhost:3001/api/:id
+Content-type: application/json
+
+{}
+
+###
+POST http://localhost:3001/api
+Content-type: application/json
+
+{"name":"Nghi Tran"}
+
+###
+PUT http://localhost:3001/api/:id
+Content-type: application/json
+
+{
+"name": "Nghi Tran",
+"age": "20"
+}
+
+###
+DELETE http://localhost:3001/api/:id
+Content-type: application/json
+
+{}
